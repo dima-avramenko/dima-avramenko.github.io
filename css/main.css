@@ -1,0 +1,141 @@
+header {
+	background-color: #669900;
+	margin-top: -70px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+	background-color: white;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #ffffff;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px; 
+}
+
+.content {
+	padding-top: 20px
+}
+
+.content p {
+	text-align: left;
+}
+
+.phone p {
+	color: #ffffff
+}
+
+a {
+	color: #ffffff;
+}
+
+a:hover, a:focus {
+	color: #091099;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+i {
+	color: #ffffff;
+}
+
+.mobilemassage p {
+	text-align: center;
+	padding-top: 10px;
+}
+
+ul,
+ul li,
+ul li a,
+ul li a span {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	list-style-type: none;
+}
+
+img {
+	padding: 0;
+	margin: 0;
+}
+
+.photo {
+	padding-top: 20px;
+	text-align: center;
+}
+
+@media (max-width: 799px) {
+.photo img {
+	padding-left: 0;
+	margin-left: 0;
+	width: 80%;
+}}
+
+.glyphicon {
+	color: #669900
+}
+
+.item img {
+	height: auto;
+	display: block;
+	max-width: 100%;
+}
+
+section {
+	flex-grow: 1
+}
+
+footer {
+	height: 50px;
+	background-color: #669900;
+}
+
+footer p {
+	padding-left: 20px;
+	color: #ffffff;
+}
+
+.btn-group:hover {
+	
+	-webkit-transition: all 2.0s ease;
+	-moz-transition: all 2.0s ease;
+	-o-transition: all 2.0s ease;
+	-ms-transition: all 2.0s ease;
+	transition: all 2.0s ease;
+	background-color: #669900;
+}
+
+.btn-group ul a:hover {
+	color: #669900;
+	transition: 0.5s all;
+	padding-left: 30px;
+}
